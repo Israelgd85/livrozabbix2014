@@ -32,7 +32,7 @@
                 <item>
                     <name>MySQL - Processos</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>proc.num[mysqld]</key>
@@ -75,7 +75,7 @@
                 <item>
                     <name>MySQL - Uso de memória</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>proc.mem[mysqld]</key>
@@ -118,7 +118,7 @@
                 <item>
                     <name>MySQL Admin version</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.version.mysqladmin</key>
@@ -161,7 +161,7 @@
                 <item>
                     <name>MySQL begin operations per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Com_begin]</key>
@@ -204,7 +204,7 @@
                 <item>
                     <name>MySQL bytes received per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Bytes_received]</key>
@@ -250,7 +250,7 @@ userparameter_mysql.conf.</description>
                 <item>
                     <name>MySQL bytes sent per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Bytes_sent]</key>
@@ -295,7 +295,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL commit operations per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Com_commit]</key>
@@ -338,7 +338,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL delete operations per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Com_delete]</key>
@@ -381,7 +381,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL insert operations per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Com_insert]</key>
@@ -424,7 +424,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL queries per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Questions]</key>
@@ -467,7 +467,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL rollback operations per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Com_rollback]</key>
@@ -510,7 +510,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL select operations per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Com_select]</key>
@@ -553,7 +553,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL slow queries</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Slow_queries]</key>
@@ -596,7 +596,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL status</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.ping</key>
@@ -644,7 +644,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL update operations per second</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Com_update]</key>
@@ -687,7 +687,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL uptime</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.status[Uptime]</key>
@@ -730,7 +730,7 @@ It requires user parameter mysql.status[*], which is defined in userparameter_my
                 <item>
                     <name>MySQL version</name>
                     <type>0</type>
-                    <snmp_community/>
+                    <snmp_community/>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>mysql.version.db</key>
